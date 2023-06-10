@@ -1,0 +1,55 @@
+<!-- hey -->
+<!-- basic html template for responsive site  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="header__title">Dictionary</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- main -->
+<main class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main__content">
+                    <h2 class="main__title">Enter a word</h2>
+                    <form action="index.php" method="post">
+                        <input class="main__input" type="text" name="word" placeholder="Word" required>
+                        <input class="main__input" type="text" name="definition" placeholder="Definition" required>
+                        <input class="main__input" type="text" name="example" placeholder="Example" required>
+                        <button class="main__button" type="submit">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="footer__text">Dictionary</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
