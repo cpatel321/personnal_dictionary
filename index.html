@@ -1,55 +1,132 @@
-<!-- hey -->
-<!-- basic html template for responsive site  -->
+<!-- write basic html template -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dictionary</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=devicewidth, initial-scale=2">
+
+    <title>My Word Book</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        html
+        /* {position: relative;
+        width: 1440px;
+        height: 1024px;
+        
+        background: #FFFFFF;
+        } */
+        header{
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+
+        }
+        nav{
+            background-color: #ffffff;
+             color: #000000;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        li h1{
+            float: left;
+            font-size: 30px;
+
+
+        }
+      
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+
+        }
+        
+        li a {
+            color: #000000;
+            float: Right;
+            font-style: italic;
+            padding: 10px;
+            text-decoration: none;
+
+        }
+        
+            </style>
 </head>
 <body>
+<header>
+    <nav>
+        <ul>
+            <li><h1>My Word Book</h1></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="random.php">Random</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+</nav>
+</header>  
+<!-- add a section in left half side of page which contains three text boxes and a button do some css also  -->
 
-<!-- header -->
-<header class="header">
+<section>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="header__title">Dictionary</h1>
-            </div>
+        <div class="left-half">
+           
+            <h1>Search a word</h1>
+            <form action="search.php" method="post">
+                <input type="text" name="search" placeholder="Search for words">
+                <button type="submit" name="submit-search">Search</button>
+                <h1>Add this word</h1> <button type="add" name="submit-add">ADD</button>
+            </form>
+     <style>
+    .left-half{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .right-half{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+     </style>
+        </div>
+        <div class="right-half">
+            <!-- write code for right half which contains word of the day and do css -->
+            <h1>Word of the day</h1>
+            <p>Word of the day is a section which contains a word and its meaning and its synonyms and antonyms and its usage in a sentence</p>
+            <!-- create a rectangle -->
+            <div class="rectangle">
+                <h2>Word</h2>
+                <p>Meaning</p>
+                <p>Synonyms</p>
+                <p>Antonyms</p>
+                <p>Usage in a sentence</p>
+              
         </div>
     </div>
-</header>
-
-<!-- main -->
-<main class="main">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="main__content">
-                    <h2 class="main__title">Enter a word</h2>
-                    <form action="index.php" method="post">
-                        <input class="main__input" type="text" name="word" placeholder="Word" required>
-                        <input class="main__input" type="text" name="definition" placeholder="Definition" required>
-                        <input class="main__input" type="text" name="example" placeholder="Example" required>
-                        <button class="main__button" type="submit">Add</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
-
-<!-- footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p class="footer__text">Dictionary</p>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </body>
+
 </html>
+
+

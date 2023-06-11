@@ -1,0 +1,147 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 1440px;
+height: 100px;
+left: calc(50% - 1440px/2);
+top: 26px;
+
+
+
+/* Frame 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 142px;
+height: 50px;
+left: 1048px;
+top: 25px;
+
+background: #001AFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+
+
+/* Register */
+
+position: absolute;
+width: 142px;
+height: 52px;
+left: calc(50% - 142px/2);
+top: calc(50% - 52px/2 + 1px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 142px;
+height: 50px;
+left: calc(50% - 142px/2 + 594px);
+top: calc(50% - 50px/2);
+
+background: #001AFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+
+
+/* Login */
+
+position: absolute;
+width: 142px;
+height: 50px;
+left: calc(50% - 142px/2);
+top: calc(50% - 50px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Frame 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 336px;
+height: 50px;
+left: 50px;
+top: 25px;
+
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 12px;
+
+
+/* Personal Dictionary */
+
+position: absolute;
+width: 336px;
+height: 50px;
+left: calc(50% - 336px/2);
+top: calc(50% - 50px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Frame 2 */
+
+position: absolute;
+width: 720px;
+height: 578px;
+left: 0px;
+top: 223px;
+
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 1440px;
+height: 100px;
+left: calc(50% - 1440px/2);
+top: 898px;
+
